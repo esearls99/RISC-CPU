@@ -1,0 +1,21 @@
+r-typ|func7  |rs2  |rs1  |fn3|rd   |opcode
+add  |0000000|     |     |000|     |0110011		
+sub  |0100000|     |     |000|     |0110011
+and  |0000000|     |     |111|     |0110011
+or   |0000000|     |     |110|     |0110011
+xor  |0000000|     |     |100|     |0110011
+
+i-typ|immd         |rs1  |fn3|rd   |opcode
+addi |       |     |     |000|     |0010011
+andi |       |     |     |111|     |0010011
+ori  |       |     |     |110|     |0010011
+xori |       |     |     |100|     |0010011
+
+b-typ|immd   |rs2  |rs1  |fn3|immd |opcode
+bne  |       |     |     |001|     |1100011
+beq  |       |     |     |000|     |1100011
+
+LOAD&STORE
+     |offset       |     |fn3|     |opcode
+lw   |       |     |rs1  |010|rd   |0000011     
+sw   |       |     |rs1  |010|rs1  |0100011
