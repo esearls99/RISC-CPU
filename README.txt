@@ -10,7 +10,6 @@ My CPU is capable of basic arithmatic, conditional branching, and load/store fun
       and     ori
       or      xori
       xor
-      
-I apologize for the platform I designed this on; it was were I started and it works. The program I currently have the CPU wired to run is extremly simple. It stores values to registers 1 and 2, using an immediate value and a value stored in memory. Next, it adds the values of these two registers, storing the result in register 3. Then the program enters an infinite loop state, completing the program. See myprogram.txt for exact details. I put a ton of time into this project and what resulted was a terribly slow CPU with extremly limited functionality. I don't think there's much more to be done with this project but I'm very glad that I have something which works.
+The program I currently have the CPU wired to run is extremly simple. It stores values to registers 1 and 2, using an immediate value and a value stored in memory. Next, it adds the values of these two registers, storing the result in register 3. Then the program enters an infinite loop state, completing the program. See myprogram.txt for exact details. I put a ton of time into this project and what resulted was a terribly slow CPU with extremly limited functionality. I don't think there's much more to be done with this project but I'm very glad that I have something which works.
 
 Please view the complete design from the link above. There is also a jpeg of the main circuit design. This JPEG is enormous so you might have to download it to view it comfortably.
